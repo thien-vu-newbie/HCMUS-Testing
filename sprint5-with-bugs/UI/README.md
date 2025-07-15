@@ -1,27 +1,23 @@
-# UI
+# GUI Testing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+## How to create Percy account and set up Percy Project
 
-## Development server
+Create a Browserstack account
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Log in to Percy account using Browserstack
 
-## Code scaffolding
+Create a new Project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Export Percy token into session terminal
 
-## Build
+Now Session is ready
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How to test using Cypress (Percy is optional, will be more useful after expanding the testing parts)
 
-## Running unit tests
+Preconditions: The app must be running (run the app then init database like in the README at project root)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+In this directory, run `npm install`
 
-## Running end-to-end tests
+2 ways to test: `npm run test:percy` for headless mode Percy capture, `npx cypress open` for direct browser testing (this won't use Percy)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
