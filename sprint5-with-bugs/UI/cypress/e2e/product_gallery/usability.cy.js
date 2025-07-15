@@ -29,6 +29,6 @@ describe('Usability', () => {
 
   it('2.2.13 - Layout does not break on resize', () => {
     cy.viewport('iphone-6');
-    // cy.percySnapshot('Mobile Layout');
+    cy.percySnapshot('Mobile Layout');
   });
 });

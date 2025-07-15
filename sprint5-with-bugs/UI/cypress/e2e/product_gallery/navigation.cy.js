@@ -15,7 +15,6 @@ describe('Navigation', () => {
   });
 
   it('1.4.4 - Custom 404 page exists', () => {
-    // cy.request({ url: '#/non-existent-page', failOnStatusCode: false }).its('status').should('eq', 404);
     cy.visit('#/non-existent-page', { failOnStatusCode: false });
     cy.contains('404').should('exist');
   });
