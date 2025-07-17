@@ -16,7 +16,11 @@ Now Session is ready
 
 Preconditions: The app must be running (run the app then init database like in the README at project root)
 
-In this directory, run `npm install`
+Create .env in sprint5-with-bugs/API
+
+copy .env.exmample content into that .env file
+
+In this directory, run `npm install --legacy-peer-deps`
 
 2 ways to test: `npm run test:percy` for headless mode Percy capture, `npx cypress open` for direct browser testing (this won't use Percy)
 
