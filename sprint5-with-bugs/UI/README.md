@@ -20,7 +20,7 @@ Create .env in sprint5-with-bugs/API
 
 copy .env.exmample content into that .env file
 
-In this directory, run `npm install --legacy-peer-deps`
+In UI directory, run `npm install --legacy-peer-deps`
 
 2 ways to test: `npm run test:percy` for headless mode Percy capture, `npx cypress open` for direct browser testing (this won't use Percy)
 
