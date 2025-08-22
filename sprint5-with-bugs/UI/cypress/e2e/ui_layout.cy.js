@@ -1,4 +1,4 @@
-import '../../support/command.js'
+import '../support/commands.js'
 
 describe('UI Layout and Alignment', () => {
   beforeEach(() => {
